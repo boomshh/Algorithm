@@ -6,7 +6,5 @@ class Solution {
         chars[num2] = tmp
         return chars.concatToString()
     }
-    fun main () {
-        println(solution("hello", num1 = 1, num2 = 2))
-    }
+
 }
