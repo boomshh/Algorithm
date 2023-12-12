@@ -1,0 +1,10 @@
+class Solution {
+    fun solution(angle: Int): Int {
+        if((0 < angle) && (angle < 90)) {
+            return 1
+        } else if ((90 < angle) && (angle < 180)) {
+            return 3
+        } else if (90 == angle) return 2
+        else return 4
+    }
+}
