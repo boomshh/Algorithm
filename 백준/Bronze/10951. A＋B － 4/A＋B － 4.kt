@@ -1,9 +1,11 @@
 fun main() {
-    while(true){
+
+    while(true) {
         val input = readLine() ?: break
-        val (a, b) = input.split(" ").map { it.toInt() }
-        
-        println(a + b)
+        val (a, b) = input.split(' ').map { it.toInt() }
+
+        val sum = a + b
+
+        println(sum)
     }
 }
-
