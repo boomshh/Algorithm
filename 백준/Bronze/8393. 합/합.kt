@@ -1,9 +1,10 @@
 fun main() {
-    val n = readln().toInt()
-    var sum = 0
-    for (i in 1..n) {
-        sum += i
+    val tc = readln().toInt()
+    var result = 0
+
+    for(i in 1..tc) {
+        result += i
     }
-    
-    println(sum)
+
+    println(result)
 }
