@@ -1,12 +1,16 @@
 import java.util.Scanner
 
-fun main() = with(Scanner(System.`in`)) {
-    val num = nextInt()
-    var nums = ArrayList<Int> ()
-    
-    for (i in 1..num) {
-        nums.add(nextInt())
+fun main() = with(Scanner(System.`in`)){
+    val tc = readln().toInt()
+
+    var list = ArrayList<Int>()
+
+    for(i in 1..tc) {
+        list.add(nextInt())
     }
-    
-    println("${nums.min()} ${nums.max()}")
+
+    val max = list.max()
+    val min = list.min()
+
+    println("$min $max")
 }
